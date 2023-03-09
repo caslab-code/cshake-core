@@ -2,9 +2,6 @@
 
 This folder holds the Verilog code for the cSHAKE, a **c**ustomizable variant of the **S**ecure **H**ash **A**lgorithm and **KE**CCAK.
 
-### This repository is for code review only, we will publish the code through `caslab-code` account.
-
-
 ## Authorship and License
 
 The source code is developed by Bernhard Jungk <jungk@hs-albsig.de> in VHDL,
@@ -52,10 +49,12 @@ $ make clean
 $ make simulate
 ```
 
-The simulation script should return with success.
+The simulation script should return with success message.
 If the simulation script returns with errors or failures, proceed to STEP 3 and debug the code according to the waveform.
 
 #### STEP 3: Debug the code using Vivado Waveform
+
+To view the waveform for debugging the code, please run
 
 ```sh
 $ cd Vivado
