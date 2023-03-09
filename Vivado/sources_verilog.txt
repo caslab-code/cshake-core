@@ -1,0 +1,10 @@
+../verilog/clog2.v
+../verilog/keccak_pkg.v
+../verilog/testvectors.v
+../verilog/keccak_top.v
+../verilog/control_path.v
+../verilog/data_path.v
+../verilog/rc.v
+../verilog/transform.v
+../verilog/stateram_inference.v
+../verilog/state_ram.v

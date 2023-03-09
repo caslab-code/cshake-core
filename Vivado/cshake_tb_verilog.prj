@@ -1,0 +1,31 @@
+# compile vhdl design source files
+verilog work \
+"../verilog/clog2.v" \
+"../verilog/keccak_pkg.v" \
+"../verilog/keccak_top.v" \
+"../verilog/control_path.v" \
+"../verilog/data_path.v" \
+"../verilog/rc.v" \
+"../verilog/transform.v" \
+"../verilog/tb.v" \
+"../verilog/testvectors.v" \
+"../verilog/stateram_inference.v" \
+"../verilog/state_ram.v" \
+
+
+
+
+# Already converted:
+# "../verilog/keccak_top.v" \
+# "../verilog/control_path.v" \
+# "../verilog/rc.v" \
+# "../verilog/data_path.v" \
+# "../verilog/transform.v" \
+#"../verilog/tb.v" \
+#"../verilog/testvectors.vh" \
+#"../verilog/stateram_inference.v" \
+#"../verilog/state_ram.v" \
+
+
+# Do not sort compile order
+nosort
